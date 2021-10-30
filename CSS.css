@@ -1,0 +1,589 @@
+                * {
+                margin: 0;
+                padding: 0;
+                font-family: 'Mali', cursive;
+            }
+            
+            .header {
+                min-height: 100vh;
+                width: 100%;
+                background-image: url(img/bb.jpg);
+                background-position: center;
+                background-size: cover;
+                position: relative;
+            }
+            
+            nav {
+                display: flex;
+                padding: 3% 7%;
+                justify-content: space-between;
+                align-items: center;
+            }
+            
+            .nav {
+                transition: 2s;
+            }
+            
+            .nav li {
+                display: inline-block;
+            }
+            
+            .nav li a {
+                color: black;
+                display: inline-block;
+                margin: 5px;
+                padding: 5px 7px;
+                text-decoration: none;
+                font-size: 20px;
+            }
+            
+            .nav li a:hover::after {
+                content: '';
+                width: 100%;
+                height: 2px;
+                background: white;
+                display: block;
+                margin: auto;
+                transition: 0.5s;
+            }
+            
+            .txtb {
+                width: 90%;
+                color: #fff;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                text-align: center;
+            }
+            
+            .txtb li h1 {
+                font-size: 50px;
+                position: absolute;
+                text-align: center;
+            }
+            
+            .txtb li h1 {
+                color: white;
+                font-size: 62px;
+                position: absolute;
+                text-align: center;
+            }
+            
+            .txtb h1 {
+                font-size: 60px;
+            }
+            
+            .txtb p {
+                color: white;
+                font-size: 18px;
+            }
+            
+            .btn {
+                display: inline-block;
+                text-decoration: none;
+                color: white;
+                border: 1px solid white;
+                margin: 23px;
+                padding: 12px 34px;
+                font-size: 13px;
+                background: transparent;
+                position: relative;
+                cursor: pointer;
+            }
+            
+            .btn:hover {
+                border: 2px #f44336;
+                background-color: #c21509;
+                transition: 1s;
+            }
+            
+            .bi-x-circle-fill {
+                display: none;
+            }
+            
+            .bi-menu-button-wide {
+                display: none;
+            }
+            
+            @media(max-width:700px) {
+                .txtb h1 {
+                    font-size: 23px;
+                }
+                .txtb p {
+                    color: white;
+                    font-size: 15px;
+                }
+                .nav {
+                    display: block;
+                    position: absolute;
+                    background-color: #9cc5e7;
+                    height: 100vh;
+                    width: 200px;
+                    top: 0;
+                    right: -200px;
+                    text-align: left;
+                    z-index: 2;
+                    transition: 1s;
+                }
+                .nav {
+                    padding: 0%;
+                    text-align: center;
+                }
+                .nav li {
+                    padding: 0px 30px 30px 5px;
+                }
+                .bi-x-circle-fill {
+                    display: block;
+                    color: black;
+                    margin: 10px;
+                    font-size: 22px;
+                    cursor: pointer;
+                }
+                .bi-menu-button-wide {
+                    display: block;
+                    margin: 3px;
+                    font-family: 50px;
+                    cursor: pointer;
+                    color: whitesmoke;
+                }
+            }
+            /*-----------------------------------------------yoga course we offer-----------------------------------------------------*/
+            
+            .course {
+                width: 80%;
+                margin: auto;
+                text-align: center;
+                padding: 100px;
+            }
+            
+            h1 {
+                font-size: 36px;
+                font-weight: 14px;
+            }
+            
+            p {
+                color: black;
+                font-size: 15px;
+                font-weight: 300;
+                line-height: 22px;
+                padding: 10px;
+            }
+            
+            .row {
+                margin: 3%;
+                display: flex;
+                justify-content: space-between;
+            }
+            
+            .course-col {
+                flex-basis: 31%;
+                background: #9cc5e7;
+                border-radius: 10px;
+                margin-bottom: 5%;
+                padding: 20px 12px;
+                box-sizing: border-box;
+                transition: 1s;
+            }
+            
+            h3 {
+                text-align: center;
+                font-weight: 600;
+                margin: 10px;
+            }
+            
+            .course-col:hover {
+                box-shadow: 0 0 20px 0px rgba(53, 0, 0, 0.925);
+            }
+            
+            @media(max-width:700px) {
+                .row {
+                    flex-direction: column;
+                    flex-basis: 10%;
+                    border-radius: 2px;
+                    padding: 3px 5px;
+                    box-sizing: border-box;
+                    margin-right: 10%;
+                }
+                .course {
+                    flex-direction: column;
+                    flex-basis: 10%;
+                    border-radius: 2px;
+                    padding: 3px 5px;
+                    box-sizing: border-box;
+                    margin-right: 7%;
+                }
+                .course h1 {
+                    font-size: 23px;
+                }
+                .course p {
+                    font-size: 15px;
+                }
+            }
+            /*------------------------------------------------------------- benifits og yoga -------------------------------------------*/
+            
+            .campus {
+                width: 80%;
+                margin: auto;
+                text-align: center;
+                padding-top: 0px;
+            }
+            
+            .campus-col {
+                flex-basis: 50%;
+                border-radius: 10px;
+                margin-bottom: 30px;
+                position: relative;
+                overflow: hidden;
+            }
+            
+            .campus-col img {
+                width: 100%;
+                display: block;
+                padding: 10px 10px 10px 10px;
+            }
+            
+            .layer {
+                background: transparent;
+                height: 100%;
+                width: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                transition: 1s;
+            }
+            
+            .layer:hover {
+                background: rgba(231, 158, 238, 0.726);
+            }
+            
+            .layer h3 {
+                width: 100%;
+                font-weight: 500;
+                color: black;
+                font-size: 26px;
+                bottom: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                position: absolute;
+                opacity: 0;
+                transition: 1s;
+            }
+            
+            .layer:hover h3 {
+                bottom: 50%;
+                opacity: 1;
+            }
+            
+            @media(max-width:700px) {
+                .campus h1 {
+                    font-size: 23px;
+                }
+                .campus p {
+                    font-size: 14px;
+                }
+            }
+            /*------------------------------------------------- Yoga in lifestyle-------------------------------------------------------*/
+            
+            .facilities {
+                width: 80%;
+                margin: auto;
+                text-align: center;
+                padding-top: 100px;
+            }
+            
+            @media(max-width:700px) {
+                .facilities {
+                    width: 80%;
+                    margin: auto;
+                    text-align: center;
+                    padding-top: 100px;
+                }
+                .facilities h1 {
+                    font-size: 20px;
+                }
+                .facilities p {
+                    font-size: 15px;
+                }
+            }
+            /*------------------------------------------yoga biggener pose ---------------------------------------------------------------*/
+            
+            .biggener {
+                width: 80%;
+                margin: auto;
+                text-align: center;
+                padding-top: 100px;
+            }
+            
+            .biggener-col {
+                flex-basis: 50%;
+                border-radius: 10px;
+                margin-bottom: 5%;
+                position: relative;
+                overflow: hidden;
+                text-decoration: left;
+            }
+            
+            .biggener-col img {
+                width: 100%;
+                display: block;
+                border-radius: 10px;
+                padding: 10px 10px 10px 10px;
+            }
+            
+            .biggener-col p {
+                padding: 0;
+            }
+            
+            .biggener-col h3 {
+                margin-top: 16px;
+                margin-left: 15px;
+                text-align: center;
+            }
+            
+            .biggener-col:hover {
+                background: rgba(231, 158, 238, 0.726);
+            }
+            
+            @media(max-width:700px) {
+                .biggener-col p {
+                    padding: 0;
+                    font-size: 13px;
+                }
+                .biggener-col h3 {
+                    margin-top: 13px;
+                    margin-left: 12px;
+                    text-align: center;
+                }
+                .biggener h1 {
+                    font-size: 23px;
+                }
+                .biggener p {
+                    font-size: 15px;
+                }
+            }
+            /*------------------------------------------------------Intermidiate Yoga poses------------------------------------------*/
+            
+            .facilities {
+                width: 80%;
+                margin: auto;
+                text-align: center;
+                padding-top: 100px;
+            }
+            
+            .facilities-col {
+                flex-basis: 50%;
+                border-radius: 10px;
+                margin-bottom: 5%;
+                position: relative;
+                overflow: hidden;
+                text-decoration: left;
+            }
+            
+            .facilities-col img {
+                width: 100%;
+                display: block;
+                border-radius: 10px;
+                padding: 10px 10px 10px 10px;
+            }
+            
+            .facilities-col p {
+                padding: 0;
+            }
+            
+            .facilities-col h3 {
+                margin-top: 16px;
+                margin-left: 15px;
+                text-align: center;
+            }
+            
+            .facilities-col:hover {
+                background: rgba(227, 235, 114, 0.726);
+            }
+            
+            @media(max-width:700px) {
+                .facilities-col p {
+                    padding: 0;
+                    font-size: 13px;
+                }
+                .facilities-col h3 {
+                    margin-top: 13px;
+                    margin-left: 12px;
+                    text-align: center;
+                }
+            }
+            /*-----------------------------------------Expert yoga poses------------------------------------------------*/
+            
+            .expert {
+                width: 80%;
+                margin: auto;
+                text-align: center;
+                padding-top: 100px;
+            }
+            
+            .expert-col {
+                flex-basis: 50%;
+                border-radius: 10px;
+                margin-bottom: 5%;
+                position: relative;
+                overflow: hidden;
+                text-decoration: left;
+            }
+            
+            .expert-col img {
+                width: 100%;
+                display: block;
+                border-radius: 10px;
+                padding: 10px 10px 10px 10px;
+            }
+            
+            .expert-col p {
+                padding: 0;
+            }
+            
+            .expert-col h3 {
+                margin-top: 16px;
+                margin-left: 15px;
+                text-align: center;
+            }
+            
+            .expert-col:hover {
+                background: rgba(165, 241, 150, 0.726);
+            }
+            
+            @media(max-width:700px) {
+                .expert-col p {
+                    padding: 0;
+                    font-size: 13px;
+                }
+                .expert-col h3 {
+                    margin-top: 13px;
+                    margin-left: 12px;
+                    text-align: center;
+                }
+            }
+            /*-------------------------------------------------testimonials-------------------------------------------------------*/
+            
+            .testimonials {
+                width: 80%;
+                margin: auto;
+                padding-top: 100px;
+                text-align: center;
+            }
+            
+            .testimonial-col {
+                flex-basis: 30%;
+                border-radius: 50px;
+                margin-bottom: 5%;
+                overflow: hidden;
+                margin-bottom: 5%;
+                text-align: left;
+                background: rgba(231, 158, 238, 0.726);
+                padding: 25px;
+                cursor: pointer;
+                display: -ms-inline-grid;
+            }
+            
+            .testimonials img {
+                height: 50px;
+                width: 30%;
+                margin-left: 5px;
+                margin-right: 30px;
+                border-radius: 50%;
+            }
+            
+            .testimonial-col img {
+                width: 19%;
+                padding: 10px 11px 10px 10px;
+            }
+            
+            .testimonial-col p {
+                padding: 0;
+            }
+            
+            .testimonial-col h3 {
+                margin-top: 15px;
+                text-align: left;
+            }
+            
+            .testimonial-col .bi-star-fill {
+                color: #041f96;
+            }
+            
+            .testimonial-col .bi-star-half {
+                color: #041f96;
+            }
+            
+            .testimonial-col .bi-star {
+                color: #041f96;
+            }
+            
+            @media(max-width:700px) {
+                .testimonial-col img {
+                    margin-left: 0px;
+                    margin-right: 15px;
+                }
+                .testimonials h1 {
+                    font-size: 23px;
+                }
+                .testimonials p {
+                    font-size: 13px;
+                }
+                .testimonial-col h3 {
+                    font-size: 18px;
+                }
+            }
+            /*-------------------------------------------Call to action---------------------------------*/
+            
+            .ctn {
+                margin: 100px auto;
+                width: 80%;
+                background-image: linear-gradient(rgba(99, 93, 104, 0.7), rgba(99, 93, 104, 0.7)), url(img/lua.jpg);
+                background-position: center;
+                background-size: cover;
+                background-position: 0em;
+                text-align: center;
+                padding: 100px 0;
+            }
+            
+            .ctn h1 {
+                color: #fff;
+                margin-bottom: 100px;
+                padding: 0;
+            }
+            
+            @media(max-width:700px) {
+                .ctn h1 {
+                    font-size: 20px;
+                }
+            }
+            /*-------------------------------------------------------footer ----------------------------------------------------*/
+            
+            .footer {
+                width: 100%;
+                text-align: center;
+                padding: 30px 0;
+            }
+            
+            .footer h4 {
+                margin-bottom: 25px;
+                margin-top: 20px;
+                font-weight: 600;
+                font-size: 35px;
+            }
+            
+            .icons .bi {
+                color: red;
+                margin: 0 13px;
+                cursor: pointer;
+                padding: 18px 0;
+            }
+            
+            .bi-suit-heart {
+                color: red;
+            }
+            
+            @media(max-width::700px) {
+                .footer h4 {
+                    font-size: 20px;
+                }
