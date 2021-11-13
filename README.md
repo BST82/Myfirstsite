@@ -4,6 +4,8 @@
 Which I have created using html and css.
 This is my Yoga website
 I am sharing my work.
+This is my first website which is based on Html and css it is also mobile-friendly .
+I am glad to share my first work on git-hub.
 
 
 # Yoga website first page view
