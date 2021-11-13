@@ -13,6 +13,18 @@ First page view in laptop
 ![Screenshot (609)](https://user-images.githubusercontent.com/86471670/141642930-adcfcf2e-404d-48a8-af67-0c06db0499f5.png)
 ![Screenshot (611)](https://user-images.githubusercontent.com/86471670/141642948-7749b5e2-bfe1-4965-a716-074520d3d8aa.png)
 
+This website is also mobile-friendly 
+![Screenshot (613)](https://user-images.githubusercontent.com/86471670/141643087-927f4c16-514c-40a6-a94a-14c608d1b8b3.png)
+![Screenshot (614)](https://user-images.githubusercontent.com/86471670/141643105-4f349168-0483-4421-b9bd-d8a1c519a670.png)
+![Screenshot (615)](https://user-images.githubusercontent.com/86471670/141643118-50c562a3-190e-49e3-8a3a-474e0127af86.png)
+![Screenshot (616)](https://user-images.githubusercontent.com/86471670/141643125-0b5617fa-aab4-4df7-9a64-8b5c8b4de76f.png)
+![Screenshot (617)](https://user-images.githubusercontent.com/86471670/141643141-a02cc001-725c-4cdb-a44d-20a3a4b053e6.png)
+![Screenshot (618)](https://user-images.githubusercontent.com/86471670/141643147-8b729600-d7c1-4f0d-8024-4bba9ab189a3.png)
+
+
+
+
+
 
 
 
